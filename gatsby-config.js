@@ -3,8 +3,18 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Introduccioón a Gatsby`,
+    title: `Bienes patrimoniales de La Laguna`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+//    {
+//      resolve: "gatsby-source-filesystem",
+//      options: {
+//        name: `blog`,
+//        path: `${__dirname}/blog`,
+//      }
+//    },
+  ],
 }

@@ -1,0 +1,29 @@
+.nav {
+  background-color: #666;
+  color: #fff;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-link {
+  margin-right: 1rem;
+}
+
+.nav-link-text {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-link-text:hover {
+  background-color: #9ca6af;
+  color: black;
+}

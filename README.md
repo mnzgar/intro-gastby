@@ -7,7 +7,7 @@
   Gatsby Minimal Starter
 </h1>
 
-# Introducción a Gatsby
+# Gatsby
 ## Tecnologías Web: Cliente
 
 ## Actividades:
@@ -26,7 +26,7 @@ Crear un sitio web con Gatsby que cumpla los siguientes requisitos:
 1.  **Clonar el repositorio**
 
     ```zsh
-    git@github.com:mnzgar/intro-gastby.git
+    git@github.com:mnzgar/gatsby.git
     ```
 
 2.  **Ejecutar**
@@ -34,7 +34,7 @@ Crear un sitio web con Gatsby que cumpla los siguientes requisitos:
     Navega hasta el directorio y ejecutalo.
 
     ```zsh
-    cd intro-gatsby/
+    cd gatsby/
     npm i
     npm run develop
     ```

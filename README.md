@@ -7,7 +7,7 @@
   Gatsby Minimal Starter
 </h1>
 
-# Herramientas de desarrollo en el lado del Cliente
+# Introducción a Gatsby
 ## Tecnologías Web: Cliente
 
 ## Actividades:

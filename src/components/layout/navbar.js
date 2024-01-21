@@ -7,10 +7,13 @@ const Layout = () => {
     <nav className={nav}>
       <ul className={navList}>
         <li className={navLink}>
-        <Link to="/" className={navLinkText}>Inicio</Link>
+          <Link to="/" className={navLinkText}>Inicio</Link>
         </li>
         <li className={navLink}>
-        <Link to="/about" className={navLinkText}>Acerca de</Link>
+          <Link to="/files" className={navLinkText}>Componentes</Link>
+        </li>
+        <li className={navLink}>
+          <Link to="/about" className={navLinkText}>Acerca de</Link>
         </li>
       </ul>
     </nav>

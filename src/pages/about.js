@@ -3,9 +3,11 @@ import { StaticImage } from 'gatsby-plugin-image';
 
 import Layout from '../components/layout/layout';
 
+const pageTitle = "Acerca de";
+
 const AboutPage = () => {
   return (
-    <Layout pageTitle="Acerca de" page="about">
+    <Layout pageTitle={pageTitle} page="about">
       <div>
         <h2>Autor: Míriam Núñez García</h2>
         <h3>Fecha de creación: 19 de enero de 2024</h3>
@@ -26,13 +28,13 @@ const AboutPage = () => {
       <div>
         <StaticImage
           alt="Clifford, un pitbull de color marrón rojizo, posa en un sofá y mira estoicamente a la cámara"
-          src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+          src="../assets/dog.jpg"
         />
       </div>
     </Layout>
   );
 };
 
-export const Head = () => <title>Acerca de</title>;
+export const Head = () => <title>{pageTitle}</title>;
 
 export default AboutPage;

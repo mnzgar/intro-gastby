@@ -4,6 +4,7 @@ import axios from 'axios';
 import Layout from '../components/layout/layout';
 import HeritageAsset from '../components/heritage-asset';
 
+const pageTitle = "Listado de bienes";
 const URL_BASE = 'https://demo7895686.mockable.io/api';
 
 const IndexPage = () => {
@@ -22,7 +23,7 @@ const IndexPage = () => {
   }, []);
 
   return (
-    <Layout pageTitle="Listado de bienes" page="index">
+    <Layout pageTitle={pageTitle} page="index">
       {assets.map((asset, index) => (
         <HeritageAsset key={index} asset={asset} />
       ))}
@@ -30,6 +31,6 @@ const IndexPage = () => {
   );
 };
 
-export const Head = () => <title>Listado de bienes</title>;
+export const Head = () => <title>{pageTitle}</title>;
 
 export default IndexPage;

@@ -35,6 +35,6 @@ Crear un sitio web con Gatsby que cumpla los siguientes requisitos:
 
     ```zsh
     cd intro-gatsby/
-    npm init
+    npm i
     npm run develop
     ```

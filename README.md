@@ -26,7 +26,7 @@ Crear un sitio web con Gatsby que cumpla los siguientes requisitos:
 1.  **Clonar el repositorio**
 
     ```zsh
-    git@github.com:mnzgar/gatsby.git
+    git@github.com:mnzgar/intro-gatsby.git
     ```
 
 2.  **Ejecutar**
@@ -34,7 +34,7 @@ Crear un sitio web con Gatsby que cumpla los siguientes requisitos:
     Navega hasta el directorio y ejecutalo.
 
     ```zsh
-    cd gatsby/
+    cd intro-gatsby/
     npm i
     npm run develop
     ```
